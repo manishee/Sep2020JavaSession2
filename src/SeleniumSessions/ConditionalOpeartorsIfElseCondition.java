@@ -19,7 +19,7 @@ public class ConditionalOpeartorsIfElseCondition {
 		}
 		
 		String s="Hello";
-		String s1="h ello";
+		String s1="h ello";// h ello
 		if(s.equalsIgnoreCase(s1)) {
 			System.out.println("both are equal");
 		}else {
