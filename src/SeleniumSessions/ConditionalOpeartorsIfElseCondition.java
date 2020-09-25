@@ -3,7 +3,7 @@ package SeleniumSessions;
 public class ConditionalOpeartorsIfElseCondition {
 
 	public static void main(String[] args) {
-		//this code was written in 3rd session
+		//testing again
 		int a=10;
 		int b=20;
 		System.out.println(a>b);
