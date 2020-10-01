@@ -119,8 +119,10 @@ public class DataTypes {
 		System.out.print(80+"\n");
 		System.out.println(60);
 		// print in red
-		System.err.println("print something in red color");
-	
+		//System.err.println("print something in red color");
+		
+		System.out.println(4/2);
+		System.out.println(5%2);// remainder
 	}
 
 }
