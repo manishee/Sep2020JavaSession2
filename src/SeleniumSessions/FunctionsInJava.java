@@ -1,3 +1,4 @@
+//********************** Oct 16 ************************
 package SeleniumSessions;
 
 public class FunctionsInJava {
@@ -30,6 +31,16 @@ public class FunctionsInJava {
 		System.out.println(s2);
 		String cityName=obj.getCapitalName("Germany");
 		System.out.println(cityName);
+		int m=obj.getStudentMarks("Sheetal");
+		System.out.println(m);
+		
+		if(obj.launchBrowser("Opera")){
+			System.out.println("execute test cases");
+			
+		}else {
+			System.out.println("test cases not executed");
+		}
+		
 	}
 	//public --> publicly accessible
 	// void --> doesnt return anything
@@ -93,6 +104,57 @@ public class FunctionsInJava {
 			System.out.println("Country Name is not found");
 			return null;
 		}
+	}
+	
+	//WAM where a student name(String) is passed and the marks(int) are returned
+	
+	public int getStudentMarks(String name) {
+		int marks=0;
+		//null value is used for string and objects 
+		System.out.println("getting the marks for " +name);
+		
+		if(name.equals("Mohan")) {
+			marks=95;
+		}
+		else if(name.equals("Kanika")) {
+			marks=90;
+		}
+		else if(name.equals("Pratik")) {
+			marks=100;
+		}
+		else if(name.equals("Rahul")) {
+			marks=10;
+		}
+		else {
+			System.out.println("Student not found " +name);
+			return -1;
+		}
+		
+		return marks;
+	}
+	
+	// WAM where we will pass the browsername and launch the browser and return boolean
+	// use switch statement
+	public boolean launchBrowser(String browserName) {
+		System.out.println("Launching browser: " + browserName);
+		boolean flag=false;
+		switch (browserName) {
+		case "chrome":
+			System.out.println("Launching chrome");
+			flag=true;
+			break;
+		case "firefox":
+			System.out.println("Launching firefox");
+			flag=true;
+			break;
+		case "safari":
+			System.out.println("Launching safari");
+			flag=true;
+			break;
+		default:
+			System.out.println("Browser not found " +browserName);
+			break;
+		}return flag;
 	}
 	
 	

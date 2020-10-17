@@ -83,7 +83,36 @@ public class ArraysConcept {
 		
 		//Limitation of Arrays
 		//1. size is fixed or static array
-		//2. stores only similar kind of data 
+		//2. stores only similar kind of data -> we can overcome this by using object array
+		
+		Object obj[]=new Object[5];
+		
+		obj[0]="tom";
+		obj[1]='m';
+		obj[2]=25;
+		obj[3]=true;
+		obj[4]=12.22;
+		
+		for(int ii=0; ii<obj.length; ii++) {
+			System.out.println(obj[ii]);
+		}
+
+		//for each loop
+		for(Object data : obj) {
+			System.out.println(data);
+		}
+		
+		//ways to declare and initialize arrays
+		
+		int a1[]=new int[2];
+		//int[] a1=new int[2];
+		//int a1[]=new int[] {10,20};
+		//int a1[]= {10,20};
+		a1[0]=10;
+		a1[1]=20;
+		for (Integer element : a1) {
+			System.out.println(element);
+		}
 		
 	}
 
