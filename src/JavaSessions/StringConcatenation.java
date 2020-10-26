@@ -1,4 +1,4 @@
-package SeleniumSessions;
+package JavaSessions;
 
 public class StringConcatenation {
 

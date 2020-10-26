@@ -1,5 +1,5 @@
 //************** Oct 19 *****************
-package SeleniumSessions;
+package JavaSessions;
 
 public class CarDesign {
 

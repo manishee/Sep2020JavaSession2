@@ -1,5 +1,5 @@
 //*************** Oct 21 -p4*******************
-package SeleniumSessions;
+package JavaSessions;
 
 public class A {
 

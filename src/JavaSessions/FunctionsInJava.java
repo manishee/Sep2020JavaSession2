@@ -1,5 +1,5 @@
 //********************** Oct 16 ************************
-package SeleniumSessions;
+package JavaSessions;
 
 public class FunctionsInJava {
 			//Functions and methods are synonyms

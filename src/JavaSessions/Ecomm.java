@@ -1,5 +1,5 @@
 //*************** Oct 21 -p2*******************
-package SeleniumSessions;
+package JavaSessions;
 
 public class Ecomm {
 

@@ -1,4 +1,4 @@
-package SeleniumSessions;
+package JavaSessions;
 
 import java.util.ArrayList;
 

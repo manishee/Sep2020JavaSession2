@@ -1,5 +1,5 @@
 //*************** Oct 21 -p6*******************
-package SeleniumSessions;
+package JavaSessions;
 
 public class Login {
 

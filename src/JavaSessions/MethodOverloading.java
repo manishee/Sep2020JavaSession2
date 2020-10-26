@@ -1,5 +1,5 @@
 //*************** Oct 21 -p1*******************
-package SeleniumSessions;
+package JavaSessions;
 
 public class MethodOverloading {
 

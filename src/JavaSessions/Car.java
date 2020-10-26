@@ -1,5 +1,5 @@
 //************ Oct 7 *************
-package SeleniumSessions;
+package JavaSessions;
 
 public class Car { // template
 	
