@@ -13,6 +13,12 @@ public class TestHospital {
 		fh.physioServices();
 		fh.oncologyServices();
 		fh.pathalogy();
+		fh.OPDServices();//independent methods
+		fh.neuroServices();//independent methods
+		USMedical.minFee();//static method is called using parent interface
+		System.out.println(USMedical.admission_fee);//static variable
+		//USMedical.admission_fee=100;
+	
 	
 		//Top casting
 		USMedical us=new FortisHospital();
@@ -22,10 +28,19 @@ public class TestHospital {
 		us.physioServices();
 		us.orthoServices();
 		
+		//us.OPDServices();//independent methods - ref check will fail
+		//us.neuroServices();//independent methods - ref check will fail
+		
 		//Down casting --> not allowed
 		//FortisHospital fh1=(FortisHospital)new USMedical();
 	
-	
+		//Top casting with another interface
+		
+		UKMedical uk=new FortisHospital();
+		uk.ENTServices();
+		uk.pediaServices();
+		uk.emergencyServices();
+		
 	
 	
 	}

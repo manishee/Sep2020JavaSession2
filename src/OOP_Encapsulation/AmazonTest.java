@@ -11,9 +11,6 @@ public class AmazonTest {
 //		lp.setPassword("cust@123");
 		lp.doLogin(lp.getUsername(), lp.getPassword());
 		
-		
-		
-		
 //		lp.setUsername("seller@gmail.com");
 //		lp.setPassword("seller@123");
 //		lp.doLogin(lp.getUsername(), lp.getPassword());

@@ -5,8 +5,6 @@ public class AmazonTest {
 
 	public static void main(String[] args) {
 
-		
-		
 		//ChromeDriver driver=new ChromeDriver();
 		//FirefoxDriver driver=new FirefoxDriver();
 		//SafariDriver driver=new SafariDriver();

@@ -25,10 +25,6 @@ public class LoginPage {
 	
 	public void doLogin(String un, String pwd) {
 		System.out.println("Login to app with " + un + " and " +pwd);
-	}
-	
-	
-	
-	
+	}	
 	
 }
